@@ -1,0 +1,35 @@
+.table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.search-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.searchInput{
+    font-size: 1.2rem;
+}
+
+table{
+    border: 1px solid black
+}
+
+thead{
+    background-color: lightgray;
+}
+
+th{
+    text-align: center;
+    padding: .5rem;
+}
+
+td{
+    text-align: center;
+    padding: .5rem;
+}

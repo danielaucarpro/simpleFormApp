@@ -1,0 +1,29 @@
+/* No CSS *//*# sourceMappingURL=Form.css.map */
+form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 0rem;
+}
+
+.form-control{
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input{
+    padding: .5rem;
+}
+
+button{
+    padding: 1rem;
+    font-size: 1rem;
+}
