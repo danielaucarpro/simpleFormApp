@@ -25,6 +25,7 @@ const Form = () => {
 
         //Setting local storage
         const studenList = JSON.parse(localStorage.getItem('students'));
+        
         //adding new student
         if (studenList) {
             studenList.push(newStudent)
@@ -82,6 +83,7 @@ const Form = () => {
                     />
                 </div>
                 <button type='submit'>Submit</button>
+                <Link to='/table'>See the table</Link>
             </form>
         </>
     );
